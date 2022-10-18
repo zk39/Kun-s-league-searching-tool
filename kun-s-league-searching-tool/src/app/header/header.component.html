@@ -1,0 +1,10 @@
+<h5><u><i>Demo to create search bar in Angular material!! </i></u></h5>
+<form class="example-form">
+<mat-form-field class="example-full-width">
+<span matPrefix> </span>
+<input type="text" matInput placeholder="Search" name= "search" [(ngModel)]= "search">
+<button matSuffix mat-button (click)="onClick(search)"><mat-icon >search</mat-icon></button>
+</mat-form-field>
+<br/>
+{{search}}
+</form>
